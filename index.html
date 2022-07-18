@@ -24,7 +24,7 @@
       </ul>
     </nav>
 
-    <div><a href="menuHamburguer"><span class="material-symbols-outlined">menu</span></a></div>
+    <div><a href="menuHamburguer" id="menuIcon"><span class="material-symbols-outlined">menu</span></a></div>
   </header>
   <main>
     <div id="lines">
@@ -34,9 +34,9 @@
     </div>
     <section id="inicio">
       <h1 id="apresentacao">Olá! &#128075; Eu sou o <br><strong>Antonio Miguel</strong></h1>
-      <p id="devWeb"><span>desenvolvedor web</span</p>
+      <p id="devWeb">desenvolvedor web</p>
       <p class="descricao">Sou desenvolvedor front-end júnior com muito sede de conhecimento e atualmente moro em São Paulo - SP, Brasil.</p>
-      <button id="btn" id="LinkedIn"><a href="#">
+      <button id="linkedIn"><a href="#">
         <div>Ver meu LinkedIn <span class="material-symbols-outlined">navigate_next</span></div>
       </a></button>
       <div class="scrollDown">
@@ -49,7 +49,6 @@
         <h2 class="tituloSections" id="h2Projetos">Projetos</h2>
         <p class="descSection">Como sou desenvolvedor júnior meus projetos são relativamente simples usando principalmente as tecnologia <abbr title="Hyper text Markup language">HTML5</abbr> / <abbr title="Cascading Style Sheets">CSS</abbr> / <abbr title="JavaScript">JS</abbr> para construir minhas páginas web. <br> Abaixo estão alguns dos meus projetos hospedados no github pages.</p>
 
-        <section id="groupCard">
           <section id="cards">
             <div class="card">
               <h3>Relógio</h3>
@@ -79,13 +78,6 @@
               <h3>Em breve</h3>
               <p class="descricaoCard">Este projeto está em construção &#128679;</p>
             </div>
-          </div>
-          
-          <div id="simple-dots"></div>
-                </div>
-                <div class="controls">
-          <button  id="first"> < </button>
-          <button  id="last"> > </button>
         </section>
         <button id="github"><div>Ver mais no meu github <span class="material-symbols-outlined">navigate_next</span></div></button>
         <div id="lines1">
@@ -94,7 +86,6 @@
           <span></span>
         </div>
       </section>
-    </section>
 
     <section id="sobreMim">
       <h2 class="tituloSections"  id="h2sobreMim">Sobre mim</h2>
@@ -129,79 +120,15 @@
     </div>
     </section>
   </main>
-  <footer></footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
-
-  <script>// Simple carousel
-// =============================================================================
-
-const $simpleCarousel = document.querySelector("#cards");
-
-new Glider($simpleCarousel, {
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  draggable: true,
-  dots: "#simple-dots",
-  arrows: {
-    prev: "#last",
-    next: "#start",
-  },
-  // scrollLock: true,
-  // scrollLockDelay: 100,
-  // rewind: true,
-});
-
-// // Responsive carousel
-// // =============================================================================
-
-// const $responsiveCarousel = document.querySelector(".js-carousel--responsive");
-
-// new Glider($responsiveCarousel, {
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-//   draggable: true,
-//   duration: 0.25,
-//   dots: ".js-carousel--responsive-dots",
-//   arrows: {
-//     prev: ".js-carousel--responsive-prev",
-//     next: ".js-carousel--responsive-next",
-//   },
-//   responsive: [
-//     {
-//       breakpoint: 600,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 2,
-//       },
-//     },
-//     {
-//       breakpoint: 900,
-//       settings: {
-//         slidesToShow: 3,
-//         slidesToScroll: 3,
-//       },
-//     },
-//   ],
-// });
-
-// // Thumbs carousel
-// // =============================================================================
-
-// const $thumbsCarousel = document.querySelector(".js-carousel--thumbs");
-// const $thumbs = document.querySelectorAll("[data-carousel-index]");
-// const thumbsGlider = new Glider($thumbsCarousel, {
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-// });
-
-// $thumbs.forEach($t => {
-//   $t.addEventListener("click", e => {
-//     const index = e.target.getAttribute("data-carousel-index");
-
-//     thumbsGlider.scrollItem(index, true);
-//   });
-// });
+  <footer>
+    <h1>Obrigado</h1>
+    <span></span>
+    <span></span>
+    <div id="divEnd">
+      <span>&copy; Miguelzinn</span>
+      <span>São Paulo - SP, Brasil</span>
+    </div>
+  </footer>
 </script>
 </body>
 </html>
