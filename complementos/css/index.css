@@ -319,9 +319,9 @@ footer > h1{
 footer > h1::after{
   position: absolute;
   top: 45%;
-  left: 20%;
+  left: 25%;
   content: '';
-  width: 600px;
+  width: 60%;
   height: 8px;
   background-color: var(--green);
   box-shadow: 500px 0 0 var(--green);
@@ -354,7 +354,7 @@ footer > #divEnd > div{
       top: -80%;
       left: -20%;
       content: '';
-      width: 700px;
+      width: 70%;
       height: 8px;
       background-color: var(--purple);
       z-index: -9;
