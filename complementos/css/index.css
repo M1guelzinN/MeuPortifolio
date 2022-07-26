@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'bebas';
-  src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap') ,
-  url('../fonts/beba.TTF') format('truetype');
+  src: url('../fonts/beba.TTF') 
+   format('truetype'), url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 }
 @font-face {
   font-family: 'Befont';
