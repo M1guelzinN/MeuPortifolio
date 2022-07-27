@@ -38,6 +38,7 @@
   --fontSegeo: 'SegeoLight';
 }
 *{
+
   margin: 0;
   padding: 0;
   border: 0;
@@ -62,7 +63,7 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-h1#logo{
+.logo{
   font-family: var(--fontBelove), sans-serif;
   font-weight: 400;
   font-size: 2.4em;
@@ -450,11 +451,6 @@ footer > #divEnd > div{
   z-index: -9;
 }
 footer > #divEnd > span{
-  font-family: var(--fontFooter), monospace, sans-serif;
-  font-size: 1.2em;
-  padding: 5px 10%;
-}
-footer > #divEnd >span:nth-child(2){
   font-family: var(--fontFooter), monospace, sans-serif;
   font-size: 1.2em;
   padding: 5px 10%;

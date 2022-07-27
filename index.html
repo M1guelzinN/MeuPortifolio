@@ -6,14 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> <!-- google fonts -->
+
   <link rel="stylesheet" href="complementos/css/index.css">
-  <!-- css -->
   <link rel="stylesheet" href="complementos/css/amination.css">
+  <link rel="stylesheet" href="complementos/css/menu.css">
   <title>Meu portifólio</title>
 </head>
 <body>
+  <section id="sectMenu">
+    <div id="transition">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menuElement">
+      <h1 class="logo">Miguelzinn</h1>
+
+      <nav>
+        <ul id='ulMenuOpen'>
+        <li><a href="#logo">início</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobreMim">Sobre mim</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+    </nav>
+    
+    <footer id="footerMenu">
+      <div>
+        <img src="complementos/svgSocial/icons8-linkedin.svg" alt="">
+        <img src="complementos/svgSocial/icons8-gmail.svg" alt="">
+        <img src="complementos/svgSocial/icons8-github.svg" alt="">
+      </div>
+      <span>&copy; Miguelzinn</span>
+    </footer>
+
+  </div>
+  </section>
+  
   <header>
-    <h1 id="logo">Miguelzinn</h1>
+    <h1 class="logo">Miguelzinn</h1>
 
     <nav >
       <ul>
@@ -24,7 +55,7 @@
       </ul>
     </nav>
 
-    <div><a href="menuHamburguer" id="menuIcon"><span class="material-symbols-outlined">menu</span></a></div>
+    <div id="menuIcon"><span class="material-symbols-outlined">menu</span></div>
   </header>
   <main>
     <div id="lines">
@@ -134,6 +165,7 @@
       <span>São Paulo - SP, Brasil</span>
     </div>
   </footer>
-</script>
+
+  <script src="complementos/js/menu.js"></script>
 </body>
 </html>
