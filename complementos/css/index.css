@@ -93,6 +93,11 @@ nav > ul > li > a:hover{
   color: var(--white);
   transition: color .5s;
 }
+@media (max-width: 700px) {
+  header > nav{
+    display: none;
+  }
+}
 #menuIcon > .material-symbols-outlined{
   color: var(--gray);
   font-size: 2em;
