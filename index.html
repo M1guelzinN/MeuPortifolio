@@ -4,17 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> <!-- google fonts -->
-
+  
+  <!-- google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+  <!-- css -->
   <link rel="stylesheet" href="complementos/css/index.css">
+  <!-- animações -->
   <link rel="stylesheet" href="complementos/css/amination.css">
+  <!-- menu -->
   <link rel="stylesheet" href="complementos/css/menu.css">
+
   <title>Meu portifólio</title>
 </head>
 <body>
-    <div id="progressbar"></div>
-    <div id="Scrollpath"></div>
+  <div id="progressbar"></div><div id="Scrollpath"></div>
+
   <section id="sectMenu">
     <div id="flexDiv">
       <div id="transition">
@@ -22,46 +26,35 @@
         <span></span>
         <span></span>
       </div>
+
       <div class="menuElement">
         <h1 class="logo">Miguelzinn</h1>
 
         <nav>
           <ul id='ulMenuOpen'>
-          <li><a href="#logo">início</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#sobreMim">Sobre mim</a></li>
-          <li><a href="#contato">contato</a></li>
-        </ul>
-      </nav>
+            <li><a href="#logo">início</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobreMim">Sobre mim</a></li>
+            <li><a href="#contato">contato</a></li>
+          </ul>
+        </nav>
       
-      <footer id="footerMenu">
-        <div>
-          <a href="https://www.linkedin.com/in/antonio-miguel-437b20239/" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-linkedin.svg" alt="Meu perfil no linkedIn"></a>
-          <a href="" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-gmail.svg" alt="entrar em contato com gmail"></a>
-          <a href="https://github.com/M1guelzinN" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-github.svg" alt="Meu perfil no github"></a>
-        </div>
-        <span>&copy; Miguelzinn</span>
-      </footer>
-      
-        </div>
+        <footer id="footerMenu">
+          <div>
+            <a href="https://www.linkedin.com/in/antonio-miguel-437b20239/" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-linkedin.svg" alt="Meu perfil no linkedIn"></a>
+            <a href="" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-gmail.svg" alt="entrar em contato com gmail"></a>
+            <a href="https://github.com/M1guelzinN" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-github.svg" alt="Meu perfil no github"></a>
+          </div>
+          <span>&copy; Miguelzinn</span>
+        </footer>
+      </div>
     </div>
   </section>
   
-
-
-
-
-
-
-
-
-
-
-
-  <header>
+  <header> <!-- cabeçalho-->
     <h1 class="logo">Miguelzinn</h1>
 
-    <nav >
+    <nav>
       <ul>
         <li><a href="#logo">início</a></li>
         <li><a href="#projetos">Projetos</a></li>
@@ -72,106 +65,121 @@
 
     <div id="menuIcon"><span class="material-symbols-outlined">menu</span></div>
   </header>
-  <main>
+
+
+  <main>      <!-- seções principais-->
     <div id="lines">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span></span> <span></span> <span></span>
     </div>
-    <section id="inicio">
+
+    <section id="inicio">    <!-- apresentação -->
       <h1 id="apresentacao">Olá! &#128075; Eu sou o <br><strong>Antonio Miguel</strong></h1>
+
       <p id="devWeb">desenvolvedor web</p>
       <p class="descricao">Sou desenvolvedor front-end júnior com muito sede de conhecimento e atualmente moro em São Paulo - SP, Brasil.</p>
-      <button id="linkedIn"><a href="#">
-        <div>Ver meu LinkedIn <span class="material-symbols-outlined">navigate_next</span></div>
-      </a></button>
+
+      <button id="linkedIn">
+        <a href="#"><div>Ver meu LinkedIn <span class="material-symbols-outlined">navigate_next</span></div></a>
+      </button>
+
       <div class="scrollDown">
         <span class="material-symbols-outlined"> expand_more </span>
       </div>
     </section>
 
-    <section id="projetos">
+    <section id="projetos">     <!-- seção de projetos-->
       <div id="right">
         <h2 class="tituloSections" id="h2Projetos">Projetos</h2>
+
         <p class="descSection">Como sou desenvolvedor júnior meus projetos são relativamente simples usando principalmente as tecnologia <abbr title="Hyper text Markup language">HTML5</abbr> / <abbr title="Cascading Style Sheets">CSS</abbr> / <abbr title="JavaScript">JS</abbr> para construir minhas páginas web. Abaixo estão alguns dos meus projetos hospedados no github pages.</p>
+      </div>
+
+      <section id="cards">
+        <div class="card">
+          <h3>Relógio</h3>
+          <p class="descricaoCard">relógio digital feito com HTML/CSS/JAVASCRIPT</p>
         </div>
 
-        <section id="cards">
-          <div class="card">
-            <h3>Relógio</h3>
-            <p class="descricaoCard">relógio digital feito com HTML/CSS/JAVASCRIPT</p>
-          </div>
-          <div class="card">
-            <h3>Calculadora</h3>
-            <p class="descricaoCard">Calculadora simples feita em JavaScript</p>
-          </div>
-          <div class="card">
-            <h3>Gerador de senhas fortes</h3>
-            <p class="descricaoCard">Website que cria senhas fortes usando javascript para embaralhar os caracteres aleatoriamente</p>
-          </div>
-          <div class="card">
-            <h3>Em breve</h3>
-            <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-          </div>
-          <div class="card">
-            <h3>Em breve</h3>
-            <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-          </div>
-          <div class="card">
-            <h3>Em breve</h3>
-            <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-          </div>
-          <div class="card">
-            <h3>Em breve</h3>
-            <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-          </div>
+        <div class="card">
+          <h3>Calculadora</h3>
+          <p class="descricaoCard">Calculadora simples feita em JavaScript</p>
+        </div>
+
+        <div class="card">
+          <h3>Gerador de senhas fortes</h3>
+          <p class="descricaoCard">Website que cria senhas fortes usando javascript para embaralhar os caracteres aleatoriamente</p>
+        </div>
+
+        <div class="card">
+          <h3>Em breve</h3>
+          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+        </div>
+
+        <div class="card">
+          <h3>Em breve</h3>
+          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+        </div>
+
+        <div class="card">
+          <h3>Em breve</h3>
+          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+        </div>
+
+        <div class="card">
+          <h3>Em breve</h3>
+          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+        </div>
       </section>
 
       <button id="github"><a href="">
-        <div>Ver mais no meu github <span class="material-symbols-outlined">navigate_next</span></div>
-      </a></button>
+        <div>Ver mais no meu github <span class="material-symbols-outlined">navigate_next</span></div></a>
+      </button>
       
       <div id="lines1">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span> <span></span> <span></span>
       </div>
-      </section>
+    </section>
 
-    <section id="sobreMim">
+    <section id="sobreMim">    <!-- seção de about -->
       <h2 class="tituloSections"  id="h2sobreMim">Sobre mim</h2>
+
       <p>Meu nome é Antonio Miguel Silva Andrade tenho 16 anos e nasci no Maranhão mas já novo vim para São Paulo - SP onde moro hoje. Estudo em um colégio público na Zona Sul onde já estou completando o ensino médio.Sempre gostei muito de tecnologia só que nem sempre tive acesso á ela, quando comecei a ter acesso internet e um notebook já fui buscar aprender sobre design e sobre audiovisual que é algo que gosto muito mas logo depois o desenvolvimento web me chamou mais atenção e desde então me apaixonei pela área. Hoje busco uma vaga de trabalho para aprender mais e me aprimorar ao máximo junto com a equipe.
       </p>
+
       <section id="flexImgs">
-        <div>
-          <!-- <img src="mpphoto.jpg" alt=""> -->
-          <p></p>
-        </div>
-        <div>
-          <img src="" alt="">
-          <p></p>
-        </div>
+        <!-- <img src="mpphoto.jpg" alt=""> -->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio cupiditate, asperiores enim quod laboriosam architecto libero incidunt dolore eaque possimus. Velit nobis eaque odit a ratione itaque dolorem quidem f </p>
       </section>
+
       <div id="lines2">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span> <span></span> <span></span>
       </div>
     </section>
-    <section id="contato">
+
+    <section id="contato">    <!-- seção de contato -->
       <h2 class="tituloSections"  id="h2Contato">contato</h2>
-      <figure>
+
+      <figure id="cardVisit">
         <img src="" alt="">
-    </figure>
-    <div id="contatoMidias">
-      <div><img src="" alt=""></div>
-      <div><img src="" alt=""></div>
-      <div><img src="" alt=""></div>
-      <div><img src="" alt=""></div>
-    </div>
+      </figure>
+
+      <div id="contatoMidias">
+        <div>
+          <a href="https://www.linkedin.com/in/antonio-miguel-437b20239/" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-linkedin.svg" alt="Meu perfil no linkedIn"></a>
+        </div>
+
+        <div>
+          <a href="" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-gmail.svg" alt="entrar em contato com gmail"></a>
+        </div>
+
+        <div>
+          <a href="https://github.com/M1guelzinN" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-github.svg" alt="Meu perfil no github"></a>
+        </div>
+      </div>
     </section>
   </main>
-  <footer id="sectFooter">
+
+  <footer id="sectFooter"> <!-- footer(rodapé) -->
     <h1>Obrigado!</h1>
 
     <div id="divEnd">
@@ -182,5 +190,6 @@
   </footer>
 
   <script src="complementos/js/menu.js"></script>
+  
 </body>
 </html>
