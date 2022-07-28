@@ -38,7 +38,6 @@
   --fontSegeo: 'SegeoLight';
 }
 *{
-
   margin: 0;
   padding: 0;
   border: 0;
@@ -91,7 +90,8 @@ li > a{
 }
 nav > ul > li > a:hover{
   color: var(--white);
-  transition: color .5s;
+  text-shadow: 3px 2px var(--orange);
+  transition: all 1s;
 }
 @media (max-width: 700px) {
   header > nav{
@@ -104,6 +104,8 @@ nav > ul > li > a:hover{
 }
 #menuIcon>.material-symbols-outlined:hover{
   color: var(--white);
+  transition: all 1s;
+  text-shadow: 3px 2px var(--orange);
 }
 
 #lines{
@@ -393,13 +395,12 @@ nav > ul > li > a:hover{
   background-color: var(--purple);
 }
 
-
-footer{
+#sectFooter{
   position: absolute;
   left: 0;
   width: 98vw;
 }
-footer > h1{
+#sectFooter > h1{
   position: relative;
   color: transparent;
   -webkit-text-stroke: 3px var(--purple);
@@ -410,7 +411,7 @@ footer > h1{
   font-size: 7em;
   margin-bottom: 150px;
 }
-footer > h1::after{
+#sectFooter > h1::after{
   position: absolute;
   top: 45%;
   left: 20%;
@@ -423,7 +424,7 @@ footer > h1::after{
  
   
 }
-footer > h1::before{
+#sectFooter > h1::before{
   position: absolute;
   -webkit-text-stroke: 0px;
   top: 60px;
@@ -434,7 +435,7 @@ footer > h1::before{
   font-size: 4rem;
   color: var(--green);
 }
-footer > #divEnd{
+#sectFooter > #divEnd{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -445,7 +446,7 @@ footer > #divEnd{
   background-color: var(--orange);
   box-shadow: 100px 0 0 var(--orange);
 }
-footer > #divEnd > div{
+#sectFooter > #divEnd > div{
   position: absolute;
   top: -80%;
   left: -20%;
@@ -455,7 +456,7 @@ footer > #divEnd > div{
   background-color: var(--purple);
   z-index: -9;
 }
-footer > #divEnd > span{
+#sectFooter > #divEnd > span{
   font-family: var(--fontFooter), monospace, sans-serif;
   font-size: 1.2em;
   padding: 5px 10%;
