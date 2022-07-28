@@ -29,7 +29,7 @@
   width: 200vw;
   height: 100vh;
   display: none;
-  animation: translateSection 2s cubic-bezier(.08, .53, .52, .8) both;
+  animation: translateSection 1s ease-out both;
 }
 #flexDiv{
   display: flex;
@@ -87,6 +87,7 @@
 .menuElement > nav > ul > li > a{
   color: var(--white);
 }
+
 #footerMenu {
   width: 100%;
   position: absolute;
@@ -127,7 +128,11 @@
 }
 
 @keyframes translateSection {
+  from{
+    transform: scale(2);
+  }
   to{
     left: -108vw;
+    transform: scale(1);
   } 
 }
