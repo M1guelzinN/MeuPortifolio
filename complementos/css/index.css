@@ -266,28 +266,6 @@ nav > ul > li > a:hover{
 .descSection > abbr{
   text-decoration: none;
 }
-#cards{
-  position: relative;
-  margin: 40px;
-  left: -5%;
-  display: flex;
-  overflow-x: scroll;
-  width: 60vw;
-  border: 1px solid red;
-}
-.card{
-  display: flex;
-  flex-direction: column;
-  height: calc(100% + 20px);
-  background-color: var(--black);
-  border: 1px solid var(--green);
-  border-radius: 20px;
-  margin: 10px 20px;
-}
-.card > h3 , p{
-  color: var(--white);
-}
-
 
 
 #github {

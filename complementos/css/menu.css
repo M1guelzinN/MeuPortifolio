@@ -29,7 +29,7 @@
   width: 200vw;
   height: 100vh;
   display: none;
-  animation: translateSection 1s ease-out both;
+  animation: translateSection .9s cubic-bezier(.51, -0.03, .09, .82) both;
 }
 #flexDiv{
   display: flex;
@@ -129,6 +129,7 @@
 
 @keyframes translateSection {
   from{
+    left: 108vw;
     transform: scale(2);
   }
   to{

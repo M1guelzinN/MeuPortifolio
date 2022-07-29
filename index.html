@@ -7,12 +7,18 @@
   
   <!-- google fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
-  <!-- css -->
-  <link rel="stylesheet" href="complementos/css/index.css">
+
+  <!-- css  -->
+  <!-- <link rel="stylesheet" href="complementos/css/index.css"> -->
   <!-- animações -->
   <link rel="stylesheet" href="complementos/css/amination.css">
   <!-- menu -->
   <link rel="stylesheet" href="complementos/css/menu.css">
+  
+  <!-- glide -->
+  <link rel="stylesheet" href="complementos/css/cssGlide/glide.core.min.css">
+  <link rel="stylesheet" href="complementos/css/cssGlide/glide.theme.min.css">
+  
 
   <title>Meu portifólio</title>
 </head>
@@ -79,7 +85,7 @@
       <p class="descricao">Sou desenvolvedor front-end júnior com muito sede de conhecimento e atualmente moro em São Paulo - SP, Brasil.</p>
 
       <button id="linkedIn">
-        <a href="#"><div>Ver meu LinkedIn <span class="material-symbols-outlined">navigate_next</span></div></a>
+        <a href="https://www.linkedin.com/in/antonio-miguel-437b20239/" target="_blank" rel="next"><div>Ver meu LinkedIn <span class="material-symbols-outlined">navigate_next</span></div></a>
       </button>
 
       <div class="scrollDown">
@@ -94,15 +100,34 @@
         <p class="descSection">Como sou desenvolvedor júnior meus projetos são relativamente simples usando principalmente as tecnologia <abbr title="Hyper text Markup language">HTML5</abbr> / <abbr title="Cascading Style Sheets">CSS</abbr> / <abbr title="JavaScript">JS</abbr> para construir minhas páginas web. Abaixo estão alguns dos meus projetos hospedados no github pages.</p>
       </div>
 
-      <section id="cards">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <article class="glide__slide">0</article>
+            <article class="glide__slide">2</article>
+            <article class="glide__slide">1</article>
+            <article class="glide__slide">2</article>
+            <article class="glide__slide">2</article>
+            <article class="glide__slide">2</article>
+            <article class="glide__slide">2</article>
+          </ul>
+        </div>
+<div class="glide__arrows" data-glide-el="controls">
+<button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+<button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+  </div>
+      </div>
+
+
+      <!-- <section id="cards">
         <div class="card">
           <h3>Relógio</h3>
           <p class="descricaoCard">relógio digital feito com HTML/CSS/JAVASCRIPT</p>
         </div>
 
         <div class="card">
-          <h3>Calculadora</h3>
-          <p class="descricaoCard">Calculadora simples feita em JavaScript</p>
+        <h3>Calculadora</h3>
+        <p class="descricaoCard">Calculadora simples feita em JavaScript</p>
         </div>
 
         <div class="card">
@@ -129,10 +154,10 @@
           <h3>Em breve</h3>
           <p class="descricaoCard">Este projeto está em construção &#128679;</p>
         </div>
-      </section>
+      </section> -->
 
-      <button id="github"><a href="">
-        <div>Ver mais no meu github <span class="material-symbols-outlined">navigate_next</span></div></a>
+      <button id="github">
+        <a href="https://github.com/M1guelzinN" target="_blank" rel="next"><div>mais no meu github <span class="material-symbols-outlined">navigate_next</span></div></a>
       </button>
       
       <div id="lines1">
@@ -191,5 +216,14 @@
   
   <script src="complementos/js/menu.js"></script>
   <script src="complementos/js/lineHeight.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+new Glide('.glide', {
+  type: 'carousel',
+  startAt: 0,
+  perView: 3
+}).mount()
+</script>
 </body>
 </html>
