@@ -255,8 +255,33 @@ nav > ul > li > a:hover{
   line-height: 112px;
   color: var(--purple);
 }
-
-
+.glide{
+  width: 90vw;
+  margin: 30px 0;
+}
+.elementCard{
+  margin: 20px 0;
+  width: 80%;
+  height: 350px;
+  background-color: var(--black);
+  border: 5px solid var(--green);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.elementCard > h3{
+  text-align: center;
+  font-family: var(--fontbeba);
+  letter-spacing: 1px;
+  font-size: 1.5em;
+}
+.elementCard > p{
+  text-align: center;
+  font-family: var(--fontSegeo);
+  font-size: 1em;
+}
 .descSection{
   padding-left: 50px;
   color: var(--white);
@@ -268,7 +293,6 @@ nav > ul > li > a:hover{
 .descSection > abbr{
   text-decoration: none;
 }
-
 
 #github {
   width: 200px;
@@ -370,19 +394,16 @@ nav > ul > li > a:hover{
   height: 40%;
   background-color: var(--green);
 }
-
 #lines2>span:nth-child(2) {
   width: 10px;
   height: 90%;
   background-color: var(--orange);
 }
-
 #lines2>span:nth-child(3) {
   width: 10px;
   height: 70%;
   background-color: var(--purple);
 } 
-
 
 /* ----------  footer  ---------- */
 #sectFooter{
@@ -411,8 +432,6 @@ nav > ul > li > a:hover{
   background-color: var(--green);
   box-shadow: 500px 0 0 var(--green);
   z-index: -10;
- 
-  
 }
 #sectFooter > h1::before{
   position: absolute;

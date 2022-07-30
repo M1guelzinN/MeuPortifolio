@@ -100,58 +100,86 @@
         <p class="descSection">Como sou desenvolvedor júnior meus projetos são relativamente simples usando principalmente as tecnologia <abbr title="Hyper text Markup language">HTML5</abbr> / <abbr title="Cascading Style Sheets">CSS</abbr> / <abbr title="JavaScript">JS</abbr> para construir minhas páginas web. Abaixo estão alguns dos meus projetos hospedados no github pages.</p>
       </div>
 
-  <section class="locura">
-    <div class="glide">
-    <div class="glide__track" data-glide-el="track">
-      <ul class="glide__slides">
-        <li class="glide__slide">         
-           <h3>Relógio</h3>
-          <p class="descricaoCard">relógio digital feito com HTML/CSS/JAVASCRIPT</p>
-        </li>
-        <li class="glide__slide">         
-           <h3>Gerador de senhas fortes</h3>
-          <p class="descricaoCard">Website que cria senhas fortes usando javascript para embaralhar os caracteres aleatoriamente</p>
-        </li>
-        <li class="glide__slide">        <h3>Calculadora</h3>
-        <p class="descricaoCard">Calculadora simples feita em JavaScript</p>
-      </li>
-        <li class="glide__slide"> 
-                    <h3>Em breve</h3>
-          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-                 <li class="glide__slide"></li>
-        <li class="glide__slide">
-                    <h3>Em breve</h3>
-          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-        </li>
-        <li class="glide__slide">
-                    <h3>Em breve</h3>
-          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-        </li>
-        <li class="glide__slide">
-                    <h3>Em breve</h3>
-          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-        </li>
-        <li class="glide__slide">
-                    <h3>Em breve</h3>
-          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-        </li>
-        <li class="glide__slide">
-                    <h3>Em breve</h3>
-          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-        </li>
-        <li class="glide__slide">
-                    <h3>Em breve</h3>
-          <p class="descricaoCard">Este projeto está em construção &#128679;</p>
-        </li>
-      </ul>
-    </div>
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">         
+              <div class="elementCard">
+                <h3>Relógio</h3>
+                <p class="descricaoCard">relógio digital feito com HTML/CSS/JAVASCRIPT</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">         
+              <div class="elementCard">
+                <h3>Gerador de senhas fortes</h3>
+                <p class="descricaoCard">Website que cria senhas fortes usando javascript para embaralhar os caracteres aleatoriamente</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="elementCard">
+                <h3>Calculadora</h3>
+                <p class="descricaoCard">Calculadora simples feita em JavaScript</p>
+              </div>
+            </li>
+
+            <li class="glide__slide"> 
+              <div class="elementCard">
+                <h3>Em breve</h3>
+                <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="elementCard">
+                <h3>Em breve</h3>
+                <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="elementCard">
+                <h3>Em breve</h3>
+                <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="elementCard">
+                <h3>Em breve</h3>
+                <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="elementCard">
+                <h3>Em breve</h3>
+                <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="elementCard">
+                <h3>Em breve</h3>
+                <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="elementCard">
+                <h3>Em breve</h3>
+                <p class="descricaoCard">Este projeto está em construção &#128679;</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       <div class="glide__track" data-glide-el="track">...</div>
-    <div class="glide__arrows" data-glide-el="controls">
-      <button class="glide__arrow glide__arrow--left" data-glide-dir="<"> < </button>
-      <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> > </button>
-    </div>
-    </div>
-  </section>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<"> < </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">"> > </button>
+        </div>
+      </div>
 
       <button id="github">
         <a href="https://github.com/M1guelzinN" target="_blank" rel="next"><div>mais no meu github </div><span class="material-symbols-outlined">navigate_next</span></a>
@@ -219,7 +247,12 @@
 new Glide('.glide', {
   type: 'carousel',
   startAt: 0,
-  perView: 3
+  focusAt: 'center',
+  perView: 3,
+    peek: {
+    before: 0,
+    after: 150
+  }
 }).mount()
 </script>
 </body>
