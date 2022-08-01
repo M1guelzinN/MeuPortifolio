@@ -93,31 +93,32 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #footerMenu > div > a > img{
   padding: 10px;
-  margin: 30px;
+  margin: 20px 40px;
+  transition: .5s;
 }
-
 #footerMenu > div > a > img:hover {
   opacity: .9;
-  transform: scale(1.2);
-  transition: .7s;
+  transform: scale(1.4);
 }
-
-#footerMenu>span {
-  padding: 20px;
+#footerMenu > span {
+  padding: 30px;
   font-family: var(--fontFooter), monospace, sans-serif;
   font-size: 1.5em;
   color: black;
 }
-
 .exit{
   overflow: inherit;
   position: absolute;
   right: 3%;
   top: 3%;
+  font-family: var(--fontFooter), sans-serif;
   font-size: 3em;
   color: black;
 }

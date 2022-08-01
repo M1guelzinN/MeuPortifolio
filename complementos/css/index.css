@@ -256,13 +256,35 @@ nav > ul > li > a:hover{
   color: var(--purple);
 }
 .glide{
+  position: relative;
+  left:-5%;
   width: 90vw;
   margin: 30px 0;
+}
+.linearGradientCard{
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 10%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, var(--black));
+  z-index: 2;
+}
+.linearGradientCardLeft{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 10%;
+  height: 100%;
+  background: linear-gradient(to left, transparent, var(--black));
+  z-index: 2;
 }
 .elementCard{
   margin: 20px 0;
   width: 80%;
-  height: 350px;
+  height: 300px;
   background-color: var(--black);
   border: 5px solid var(--green);
   border-radius: 25px;
@@ -270,6 +292,7 @@ nav > ul > li > a:hover{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  transition: .5s;
 }
 .elementCard > h3{
   text-align: center;
@@ -279,8 +302,25 @@ nav > ul > li > a:hover{
 }
 .elementCard > p{
   text-align: center;
+  width: 90%;
   font-family: var(--fontSegeo);
-  font-size: 1em;
+  font-size: .9em;
+}
+.elementCard:hover{
+  transform: scale(1.1);
+}
+.glide__arrows > button{
+  color: var(--white);
+  font-family: var(--fontFooter);
+  font-size: 2em;
+  border: none;
+  box-shadow: none;
+  opacity: .8;
+  transition:  .3s;
+}
+.glide__arrows>button:hover{
+  opacity: 1;
+  font-size: 2.2em;
 }
 .descSection{
   padding-left: 50px;
