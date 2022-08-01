@@ -87,11 +87,11 @@ ul > li > a{
   text-decoration: none;
   color: var(--gray);
   padding: 20px;
+  transition: all 1s;
 }
 nav > ul > li > a:hover{
   color: var(--white);
   text-shadow: 3px 2px var(--orange);
-  transition: all 1s;
 }
 @media (max-width: 700px) {
   header > nav{
@@ -101,11 +101,11 @@ nav > ul > li > a:hover{
 #menuIcon > .material-symbols-outlined{
   color: var(--gray);
   font-size: 2em;
+  transition: all 1s;
 }
 #menuIcon>.material-symbols-outlined:hover{
   color: var(--white);
-  transition: all 1s;
-  text-shadow: 3px 2px var(--orange);
+  text-shadow: 2px 2px var(--orange);
 }
 
 #lines{
@@ -194,7 +194,7 @@ nav > ul > li > a:hover{
   animation: loop 2s linear infinite alternate;
 }
 #linkedIn:hover{
-  transition: .5s;
+  transition: .5s; 
   transform: scale(1.1);
   opacity: .9;
 }
