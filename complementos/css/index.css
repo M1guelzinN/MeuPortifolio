@@ -215,7 +215,7 @@ nav > ul > li > a:hover{
   display: flex;
   flex-direction: column;
 }
-#projetos > #right{
+ .right{
   position: relative;
   width: 60%;
   display: block;
@@ -240,20 +240,6 @@ nav > ul > li > a:hover{
   font-size: 5rem;
   line-height: 112px;
   color: var(--green);
-}
-
-#h2Contato {
-  position: relative;
-}
-#h2Contato::before{
-  position: absolute;
-  top: 20px;
-  padding-left: 90px;
-  content: 'contato';
-  font-family: var(--fontBelove);
-  font-size: 5rem;
-  line-height: 112px;
-  color: var(--purple);
 }
 .glide{
   position: relative;
@@ -446,6 +432,9 @@ nav > ul > li > a:hover{
   text-align: justify;
   text-indent: 20px;
 }
+canvas{
+  margin-top: 100px;
+}
 #lines2 {
   position: absolute;
   width: 76px;
@@ -476,10 +465,64 @@ nav > ul > li > a:hover{
 
 /* ----------  contact  ---------- */
 #contato{
+  margin-top: 50px;
   position: relative;
   width: 100%;
-  height: 100vh;
-  border: 1px solid lightblue;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+#alignRight{
+  width: 60%;
+  align-self: flex-end;
+  margin-right: 150px;
+}
+#h2Contato {
+  position: relative; 
+}
+#h2Contato::before {
+  position: absolute;
+  top: 20px;
+  padding-left: 60px;
+  content: 'contato';
+  font-family: var(--fontBelove);
+  font-size: 5rem;
+  color: var(--purple);
+}
+#cardVisit{
+  position: relative;
+  align-self: flex-end;
+}
+#cardVisit > img{
+  width: 100%;
+}
+ #cardVisit > span {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-color: var(--purple);
+}
+#contatoMidias{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5%;
+}
+#contatoMidias > div > a > img{
+  width: 50px;
+  padding: 10px;
+  margin: 10px 50px;
+  background-color: var(--purple);
+  border-radius: 50%;
+  transition: .5s;
+}
+#contatoMidias>div>a>img:hover{
+  transform: scale(1.3);
+  
 }
 #lines3 {
   position: absolute;
@@ -488,7 +531,7 @@ nav > ul > li > a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: -50px;
+  top: 0px;
   left: 15%;
   z-index: -10;
 }
@@ -510,6 +553,10 @@ nav > ul > li > a:hover{
   height: 40%;
   background-color: var(--green);
 }
+
+
+
+
 /* ----------  footer  ---------- */
 #sectFooter{
   position: absolute;
