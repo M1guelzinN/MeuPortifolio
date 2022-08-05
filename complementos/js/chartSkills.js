@@ -47,32 +47,3 @@ const config = {
 }}
 
 const  myChart = new Chart(ctx, config)
-
-
-// const ctx = document.getElementById('myChart');
-// const myChart = new Chart(ctx, {
-//     type: 'line',
-//     data: {
-//         labels: ['Adobe Photoshop', 'Excel', 'Word', 'Inglês', 'HTML', 'CSS', 'JavaScript', 'MySql'],
-//         datasets: [{
-//             label: 'Nivel das minhas skills',
-//             data: [3,1,1,3,3,4,3,1,5],
-//             hoverRadius: 6,
-//             backgroundColor: [
-//               'rgb(255, 87, 20)'
-//             ],
-//             borderColor: [
-//               'rgb(255, 87, 20)'
-//             ],
-//             borderWidth: 2
-//         }]
-//     },
-
-//     },
-//         scales: {
-//             y: {
-//                 beginAtZero: true
-//             }
-//         }
-//     }
-// });
