@@ -198,7 +198,7 @@
     <section id="sobreMim">    <!-- seção de about -->
       <h2 class="tituloSections"  id="h2sobreMim">Sobre mim</h2>
 
-      <p>Meu nome é Antonio Miguel Silva Andrade tenho 16 anos e nasci no Maranhão, mas já novo vim para São Paulo - SP onde moro hoje. Estudo em um colégio público na Zona Sul onde já estou completando o ensino médio. Sempre gostei muito de tecnologia só que nem sempre tive acesso a ela, quando comecei a ter acesso internet e um notebook já fui buscar aprender sobre design e sobre audiovisual que é algo que gosto muito mas logo depois o desenvolvimento web me chamou mais atenção e desde então me apaixonei pela área. Hoje busco uma vaga de trabalho para aprender mais e me aprimorar ao máximo junto com a equipe.
+      <p>Meu nome é Antonio Miguel Silva Andrade tenho 16 anos e nasci no Maranhão, mas já novo vim para São Paulo - SP onde moro hoje. Estudo em um colégio público na Zona Sul onde já estou completando o ensino médio. Sempre gostei muito de tecnologia só que nem sempre tive acesso a ela, quando comecei a ter acesso internet e um notebook já fui buscar aprender sobre design e sobre audiovisual que é algo que gosto muito mas logo depois o desenvolvimento web com foco no front-end foi o que me chamou mais atenção e desde então me apaixonei pela área.
       </p>
 
       <div id="flexImg">
@@ -206,12 +206,10 @@
           <img src="mpphoto.jpg" alt="">
           <span></span>
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio cupiditate, asperiores enim quod laboriosam architecto libero incidunt dolore eaque possimus. Velit nobis eaque odit a ratione itaque dolorem quidem f </p>
+        <p>Hoje busco uma vaga de trabalho para aprender mais e me aprimorar ao máximo junto com toda a equipe.</p>
       </div>
-<canvas id="myChart" width="500" height="100">
 
-</canvas>
-
+      <canvas id="myChart" width="500" height="100"></canvas>
 
       <div id="lines2">
         <span></span> <span></span> <span></span>
@@ -233,7 +231,7 @@
             </div>
           
             <div>
-              <a href="" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-gmail.svg" alt="entrar em contato com gmail"></a>
+              <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=CllgCJNqLdTsBlzsXNQqQmKDTJhqzNCKbCzNpDzZSjddsXsLnGJVVkFFkTpwDrMskTFVZzLdFnV" target="_blank" rel="next"><img src="complementos/svgSocial/icons8-gmail.svg" alt="entrar em contato com gmail"></a>
           
             </div>
           
@@ -266,57 +264,6 @@
   <script src="complementos/js/glideCarousel.js"></script>
   <!-- chart.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-  <script>
-    // <section id="skills">
-    //     <h3>Minhas Skills</h3>
-    //     <ul class="gridSkills">
-    //       <li>Adobe Photoshop</li>
-    //       <li>Excel</li>
-    //       <li>Word</li>
-    //       <li>Inglês</li>
-    //       <li>HTML</li>
-    //       <li>CSS</li>
-    //       <li>Javascript</li>
-    //       <li>MySql</li>
-    //     </ul>
-    //   </section>
-const ctx = document.getElementById('myChart');
-const myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: ['Adobe Photoshop', 'Excel', 'Word', 'Inglês', 'HTML', 'CSS', 'JavaScript', 'MySql'],
-        datasets: [{
-            label: 'Minhas skills',
-            data: [3,1,1,3,3,4,2,1],
-            tension: .4,
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-});
-</script>
-  </script>
+  <script src="complementos/js/chartSkills.js"></script>
 </body>
 </html>
