@@ -41,7 +41,7 @@
     height: 100%;
   }
   h1#apresentacao{
-    font-size: 1.5
+    font-size: 1.3em
   }
   #apresentacao>strong {
     font-size: 2em;
@@ -91,7 +91,7 @@
     height: 90vh;
   }
   #lines1, #lines3{
-    left: 5%;
+    left: 0;
     height: 90vh;
   }
   .elementCard {

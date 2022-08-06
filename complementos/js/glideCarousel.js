@@ -5,7 +5,8 @@ new Glide('.glide', {
   perView: 4,
     peek: {
     before: 0,
-    after: 150
+    after: 150,
+    gap: 400,
   },
   breakpoints: {
     1080: {
