@@ -27,13 +27,8 @@
   header > nav {
     display: none;
   }
-  .logo{
-    margin-left: 20px;
-    font-size: 3em;
-  }
-  #menuIcon>.material-symbols-outlined {
-    font-size: 3em;
-    margin-right: 20px;
+  .logo, #menuIcon>.material-symbols-outlined {
+    font-size: 2.5em;
   }
   #inicio{
     margin: 20vw 0 40vw 0;
@@ -41,7 +36,7 @@
     height: 100%;
   }
   h1#apresentacao{
-    font-size: 2em;
+    font-size: 1.5em;
   }
   #devWeb, .descricao {
     width: 90%;
@@ -57,5 +52,11 @@
   #flexImg>p {
     width: 80%;
     margin-top: 80px;
+  }
+  #lines, #lines2{
+    right: 5%;
+  }
+  #lines1, #lines3{
+    left: 5%;
   }
 }
