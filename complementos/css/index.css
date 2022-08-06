@@ -47,6 +47,7 @@
 html{
   display: flex;
   justify-content: center;
+  align-items: center;
   scroll-behavior: smooth;
 }
 body{
@@ -195,7 +196,7 @@ nav > ul > li > a:hover{
 }
 .scrollDown > span{
   position: absolute;
-  top: 80%;
+  bottom: 20%;
   left: 50%;
   font-size: 2em;
   transform: translateX(-50%);

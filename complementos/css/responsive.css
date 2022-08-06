@@ -36,7 +36,7 @@
     height: 100%;
   }
   h1#apresentacao{
-    font-size: 1.5em;
+    font-size: 1em;
   }
   #devWeb, .descricao {
     width: 90%;
@@ -52,6 +52,9 @@
   #flexImg>p {
     width: 80%;
     margin-top: 80px;
+  }
+  .tituloSections, #h2Projetos::before{
+    font-size: 2em;
   }
   #lines, #lines2{
     right: 5%;
