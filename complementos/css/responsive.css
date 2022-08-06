@@ -30,6 +30,11 @@
   .logo, #menuIcon>.material-symbols-outlined {
     font-size: 2.5em;
   }
+  #footerMenu > div > a > img {
+    padding: 10px;
+    margin: 10px;
+    transition: .5s;
+  }
   #inicio{
     margin: 10vw 0 20vw 0;
     padding-left: 30px;
@@ -53,8 +58,7 @@
   #h2Projetos::before, #h2sobreMim::before, #h2Contato::before{
     top: 10px;
     padding-left: 30px;
-    content: "Projetos";
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .descSection {
     padding-left: 0;
