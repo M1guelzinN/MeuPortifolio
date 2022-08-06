@@ -93,11 +93,6 @@ nav > ul > li > a:hover{
   color: var(--white);
   text-shadow: 3px 2px var(--orange);
 }
-@media (max-width: 700px) {
-  header > nav{
-    display: none;
-  }
-}
 #menuIcon > .material-symbols-outlined{
   color: var(--gray);
   font-size: 2em;
@@ -434,6 +429,7 @@ nav > ul > li > a:hover{
 }
 canvas{
   margin-top: 100px;
+
 }
 #lines2 {
   position: absolute;

@@ -1,49 +1,51 @@
-const ctx = document.getElementById('myChart').getContext("2d")
-const labels = [
+(function(){
+  const ctx = document.getElementById('myChart').getContext("2d")
+  const labels = [
     'Adobe Photoshop',
     'Excel',
     'Word',
     'Inglês',
     'HTML5',
     'CSS3',
-    'Javascript',
+    'JavaScript',
     'MySql',
     'git',
-    'php',
-]
-const data = {
+    'PHP',
+    ]
+  const data = {
     labels,
     datasets: [{
-        data: [3, 1, 2, 4, 3, 4, 3, 1, 2, 1,5, 0],
-        label: "Nivel das minhas skills",
-        radius: 4,
-        borderColor: "rgb(255, 87, 20)",
-        backgroundColor: "rgb(255, 87, 20)",
-        radius: 3,
-        hoverRadius: 6,
+      data: [3, 1, 2, 4, 3, 4, 3, 1, 2, 1,5, 0],
+      label: "Nível das minhas skills",
+      radius: 4,
+      borderColor: "rgb(255, 87, 20)",
+      backgroundColor: "rgb(255, 87, 20)",
+      radius: 3,
+      hoverRadius: 6,
         scales: {
-            y: {
-                beginAtZero: true
-            }
-                }
-            }]
+          y: {
+            beginAtZero: true
+          }
+        }
+    }]
 
-}
+  }
 
-const config = {
+  const config = {
     type: 'line',
     data: data,
-    options: {
+      options: {
         responsive: true,
         animations: {
           tension: {
-            duration: 1000,
-            easing: 'ease-out',
-            from: .4,
-            to: .2,
-            loop: true
+          duration: 1000,
+          easing: 'ease-out',
+          from: .4,
+          to: .2,
+          loop: true
           },
+        }
       }
-}}
-
-const  myChart = new Chart(ctx, config)
+  }
+ new Chart(ctx, config)
+})()
