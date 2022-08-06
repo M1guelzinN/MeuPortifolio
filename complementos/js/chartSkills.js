@@ -1,7 +1,6 @@
 (function(){
   const ctx = document.getElementById('myChart').getContext("2d")
   const labels = [
-    'Adobe Photoshop',
     'Excel',
     'Word',
     'Inglês',
@@ -11,11 +10,12 @@
     'MySql',
     'git',
     'PHP',
+    'Adobe Photoshop'
     ]
   const data = {
     labels,
     datasets: [{
-      data: [3, 1, 2, 4, 3, 4, 3, 1, 2, 1,5, 0],
+      data: [1, 2, 4, 3, 4, 3, 1, 2, 1, 3, 5, 0],
       label: "Nível das minhas skills",
       radius: 4,
       borderColor: "rgb(255, 87, 20)",
@@ -35,7 +35,6 @@
     type: 'line',
     data: data,
       options: {
-        responsive: true,
         animations: {
           tension: {
           duration: 1000,
