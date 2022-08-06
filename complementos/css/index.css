@@ -53,6 +53,7 @@ html{
 body{
   width: 85vw;
   background-color: var(--black);
+  border: 1px solid red;
 }
 /* ----------  header  ---------- */
 header{
