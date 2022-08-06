@@ -75,6 +75,9 @@
     margin: 20px;
     background-color: var(--purple);
   }
+    #cardVisit>img {
+      width: 150%;
+    }
   #flexImg{
    flex-direction: column;
    align-items: flex-start;
@@ -90,5 +93,8 @@
   #lines1, #lines3{
     left: 5%;
     height: 90vh;
+  }
+  .elementCard {
+    width: 100%;
   }
 }
