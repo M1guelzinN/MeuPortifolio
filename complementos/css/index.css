@@ -197,7 +197,7 @@ nav > ul > li > a:hover{
 }
 .scrollDown > span{
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   left: 50%;
   font-size: 2em;
   transform: translateX(-50%);

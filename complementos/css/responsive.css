@@ -31,24 +31,30 @@
     font-size: 2.5em;
   }
   #inicio{
-    margin: 20vw 0 20vw 0;
+    margin: 10vw 0 20vw 0;
     padding-left: 30px;
     height: 100%;
   }
   h1#apresentacao{
-    font-size: 1em;
+    font-size: 1.5
   }
-  #devWeb, .descricao {
-    width: 90%;
-  }
-  #linkedIn {
-    margin-left: 50px;
-  }
-  .tituloSections{
+  #apresentacao>strong {
     font-size: 2em;
   }
+  #devWeb, .descricao {
+    width: 80%;
+  }
+  #linkedIn {
+    margin-left: 30px;
+  }
+  .tituloSections{
+    font-size: 3em;
+  }
   #h2Projetos::before, #h2sobreMim::before, #h2Contato::before{
-    font-size: 1em;
+    top: 10px;
+    padding-left: 30px;
+    content: "Projetos";
+    font-size: 3rem;
   }
   .descSection {
     padding-left: 0;
@@ -58,6 +64,12 @@
   .right {
     width: 80%;
     align-self: center;
+  }
+  #contatoMidias>div>a>img {
+    width: 50px;
+    padding: 10px;
+    margin: 20px;
+    background-color: var(--purple);
   }
   #flexImg{
    flex-direction: column;
@@ -69,10 +81,10 @@
   }
   #lines, #lines2{
     right: 5%;
-    height: 80vh;
+    height: 90vh;
   }
   #lines1, #lines3{
     left: 5%;
-    height: 80vh;
+    height: 90vh;
   }
 }
