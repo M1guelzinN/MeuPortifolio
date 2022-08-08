@@ -124,6 +124,9 @@
     align-self: center;
     margin: 0;
   }
+  #cardVisit{
+    margin: 40px 0;
+  }
   #cardVisit > img {
     width: 100%;
   }
