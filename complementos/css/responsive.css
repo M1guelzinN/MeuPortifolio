@@ -133,6 +133,13 @@
   }
   .elementCard {
     width: 85%;
+    height: 300px;
+  }
+  .elementCard>p {
+    text-align: center;
+    width: 80%;
+    font-family: var(--fontSegeo);
+    font-size: .7em;
   }
   #github{
     margin: 0 30px;
