@@ -36,16 +36,16 @@
     transition: .5s;
   }
   #inicio{
-    margin: 10vw 0 20vw 0;
-    padding-left: 10px;
-    width: 90%;
+    margin: 15vh 0 20vh 0;
+    padding-left: 0;
+    width: 80%;
     height: 100%;
   }
   h1#apresentacao{
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   #apresentacao>strong {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   #devWeb{
     text-align: center;
