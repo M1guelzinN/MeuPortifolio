@@ -142,10 +142,6 @@
   #contato {
     height:100%;
   }
-  canvas{
-    width: 100%;
-    height: 900px;
-  }
   #contatoMidias {
     justify-content: space-around;
     margin: 30px 0;
