@@ -23,7 +23,7 @@
       exitBtn.addEventListener('click', closeMenu)
 
       function closeMenu(){
-        document.style.overflow = 'scroll'
+        html.style.overflow = 'scroll'
         html.style.backgroundColor = ''
         menu.style.display = 'none'
       }
