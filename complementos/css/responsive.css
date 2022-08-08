@@ -37,18 +37,21 @@
   }
   #inicio{
     margin: 10vw 0 20vw 0;
-    padding-left: 30px;
+    padding-left: 0;
     height: 100%;
   }
   h1#apresentacao{
-    font-size: 1.3em;
-  }
-  #apresentacao>strong {
     font-size: 1.5em;
   }
+  #apresentacao>strong {
+    font-size: 2em;
+  }
   #devWeb, .descricao {
-    width: 70%;
-    font-size: .9em;
+    width: 60%;
+    font-size: 1em;
+  }
+  .descricao{
+    width: 80%;
   }
   #linkedIn {
     margin-left: 0;
@@ -68,7 +71,7 @@
   }
   .right {
     width: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
     margin: 0;
     align-self: center;
   }
@@ -81,10 +84,11 @@
     font-family: var(--fontSegeo), arial, sans-serif;
     text-align: justify;
     text-indent: 20px;
+    font-size: .9em;
   }
   #flexImg>.photo {
-    width: 300px;
-    height: 300px;
+    width: 0px;
+    height: 250px;
     margin: 20px 0;
   }
   #flexImg>.photo > img {
