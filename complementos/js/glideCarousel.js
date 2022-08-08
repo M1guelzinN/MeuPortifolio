@@ -15,7 +15,7 @@ new Glide('.glide', {
     900: {
       perView: 2
     },
-    700: {
+    600: {
       perView: 1
     }
   }

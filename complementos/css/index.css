@@ -98,6 +98,7 @@ nav > ul > li > a:hover{
   color: var(--gray);
   font-size: 2em;
   transition: all 1s;
+  cursor: pointer;
 }
 #menuIcon>.material-symbols-outlined:hover{
   color: var(--white);

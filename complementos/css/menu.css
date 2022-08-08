@@ -121,6 +121,7 @@
   font-family: var(--fontFooter), sans-serif;
   font-size: 3em;
   color: black;
+  cursor: pointer;
 }
 .exit:hover{
   transition: .5s;
