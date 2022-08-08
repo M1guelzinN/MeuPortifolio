@@ -94,7 +94,7 @@
   #flexImg>.photo {
     width: 250px;
     height: 250px;
-    margin: 20px 0;
+    margin: 50px 0;
   }
   #flexImg>.photo > img {
     margin: 0;
@@ -131,7 +131,7 @@
     width: 100%;
   }
   .elementCard {
-    width: 80%;
+    width: 100%;
   }
   #github{
     margin: 0 30px;
