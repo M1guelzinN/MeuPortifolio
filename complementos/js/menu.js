@@ -7,7 +7,7 @@
       menu.style.display = 'block'
   
     const html = document.querySelector('html')
-      document.body.style.overflow = 'hidden'
+      html.style.overflow = 'hidden'
 
       // correção de erro criado
     let liScroll = document.querySelectorAll('#ulMenuOpen li');
