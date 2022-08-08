@@ -601,7 +601,7 @@ canvas{
   display: flex;
   justify-content: center;
   background-color: var(--orange);
-  box-shadow: 100px 0 0 var(--orange);
+  box-shadow: 200px 0 0 var(--orange);
 }
 #sectFooter > #divEnd > div{
   position: absolute;

@@ -167,15 +167,4 @@
     margin: auto;
     font-size: .8em;
   }
-  #sectFooter>h1::after {
-    position: absolute;
-    top: 45%;
-    left: 100%;
-    content: '';
-    width: 80%;
-    height: 8px;
-    background-color: var(--green);
-    box-shadow: 00px 0 0 var(--green);
-    z-index: -10;
-  }
 }
