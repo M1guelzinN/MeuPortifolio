@@ -1,5 +1,6 @@
 (function(){
-  const ctx = document.getElementById('myChart').getContext("2d")
+  document.getElementById('myChart').style.height = '300px'
+  const ctx = document.getElementById('myChart').getContext("2d");
   const labels = [
     'Excel',
     'Word',
@@ -15,7 +16,7 @@
   const data = {
     labels,
     datasets: [{
-      data: [1, 2, 4, 3, 4, 3, 1, 2, 1, 3, 5, 0],
+      data: [2, 2.5, 4, 3, 4, 3, 1, 2, 1, 3, 5, 0],
       label: "Nível das minhas skills",
       radius: 4,
       borderColor: "rgb(255, 87, 20)",
@@ -39,8 +40,8 @@
           tension: {
           duration: 1000,
           easing: 'ease-out',
-          from: .4,
-          to: .2,
+          from: .2,
+          to: .4,
           loop: true
           },
         }
